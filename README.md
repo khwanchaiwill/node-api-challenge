@@ -38,15 +38,25 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
-- [ ] Describe Middleware?
+    Answer: Middleware and Routing
 
-- [ ] Describe a Resource?
+- [x] Describe Middleware?
 
-- [ ] What can the API return to help clients know if a request was successful?
+    Answer: Middleware functions can get the request and response objects, operate on them, and (when specified) trigger some action. Middleware CAN change the request or response but it doesn’t have to. Middleware provide a way to extend the features provided by the Express framework.
 
-- [ ] How can we partition our application into sub-applications?
+- [x] Describe a Resource?
+
+    Answer : Resource is everthing. 
+
+- [x] What can the API return to help clients know if a request was successful?
+
+    Answer: The API can return json object and status to let client know if the request successful
+
+- [x] How can we partition our application into sub-applications?
+
+    Answer: 
 
 ## Minimum Viable Product
 
